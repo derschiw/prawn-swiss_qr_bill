@@ -27,7 +27,7 @@ module Prawn
         @doc.font_families.update(
           'Noto' => {
             normal: "#{FONT_DIR}/noto/NotoSans-Regular.ttf",
-            bold: "#{FONT_DIR}/noto/NotoSans-Bold.ttf"
+            bold: "#{FONT_DIR}/noto/NotoSans-Regular.ttf"
           }
         )
         @doc.font 'Noto'
